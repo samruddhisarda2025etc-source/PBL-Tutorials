@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+namespace Arithmetic
+{
+    void calculate()
+    {
+        cout << "Arithmetic namespace: 36 + 40 = "
+             << 36 + 40 << endl;
+    }
+}
+
+namespace Geometry
+{
+    void calculate()
+    {
+        cout << "Geometry namespace: rectangle area = "
+             << 4 * 8 << endl;
+    }
+}
+
+int main()
+{
+    Arithmetic::calculate();
+    Geometry::calculate();
+
+    return 0;
+}
